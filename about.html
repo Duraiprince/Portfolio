@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About  |  Durai P Full-Stack Developer</title>
+    <link rel="icon" type="image/x-icon" href="Icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5ac71aa065.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div class="container">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    <!------------------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Highly skilled and motivated Java Full Stack Developer with expertise in frontend and backend technologies. Proficient in HTML, CSS, JavaScript, Bootstrap, Java, SQL, Spring Boot. Experienced in developing and deploying scalable web applications. Seeking opportunities to leverage technical skills and contribute to innovative projects.  </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')" >Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Technologies</span><br>HTML, CSS, JavaScript, Bootstrap, React Js</li>
+                            <li><span>Backend Technologies</span><br>Java, SpringBoot
+                            </li>
+                            <li><span>Databases</span><br>MySQL, Oracle SQL</li>
+                            <li><span>Tools</span><br>VS Code, Photoshop, MS Office</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>FullStack Web Development Course
+                            </span><br>Completed an intensive Full stackweb development course, gaining comprehensive knowledge and hands-on experience in frontend and
+                            backend technologies</li>
+                            <li><span>Frontend Developer Intern</span><br>Designed and developed a responsive e-commerce website featuring login functionality, utilizingHTML, CSS and JavaScript</li>
+                            <li><span>Backend Developer Inter</span><br>Engineered a SpringBoot CRUDsystem for employee registration, facilitating seamless datamanipulation andmanagement</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>KCG College of Technology, Karapakkam, Chennai.</span><br><br>
+                                BE(Electronics and Communication Engineering) <br>
+                            <span>First Class with 7.5 CGPA (2018-2022)
+                            </span></li>
+                            <hr>
+                            <li><span>Government Higher Secondary School, Okkiyam Thuraipakkam, Chennai.</span><br><br>
+                                S.S.L.C - <span>90.6%</span> (2016)<br><br>
+                                H.Sc - <span>69.08% </span> (2018) </li>
+                                <hr>
+                        </ul>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="copyright">
+            <p>Copyright ©️ Durai <i class="fa-solid fa-crown"></i> </p>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
